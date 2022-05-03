@@ -1,0 +1,75 @@
+.b {
+  width: 20rem;
+  background-color: rgb(12, 25, 64);
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 38%;
+  box-shadow: 0rem 1rem 1rem rgba(0.1, 0.1, 0.1, 0.6);
+}
+
+.c {
+  text-align: center;
+}
+
+.hp {
+  text-decoration: none;
+  color: white;
+}
+
+.hp:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+.c1{
+  margin-right: 5px;
+}
+
+.a {
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  width: 18rem;
+  box-shadow: 200rem;
+  transition: transform 0.5s;
+}
+
+.a:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.ojo{
+  position: relative;
+  margin-right: -2px;
+  margin-top: -320px;
+  transition: transform 0.5s;
+  width: 40px;
+  visibility: hidden;
+}
+
+.ojo:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  visibility: visible;
+}
+
+.bd {
+  color: aqua;
+}
+
+.bc {
+  color: gray;
+}
+
+.im {
+  width: 30px;
+}
+
+@media screen and (max-width:550px) {
+  .b{
+    position: absolute;
+      margin-left: 6%;
+  }  
+}
